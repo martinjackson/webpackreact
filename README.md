@@ -1,9 +1,9 @@
 # webpackreact
 
-![react](img/react-logo.png =60x60)
-![es6](img/es6-logo.png =60x60)
-![babel](img/babel.svg =60x60)
-![webpack](img/webpack-logo.svg =60x60)
+<img alt="react" src='img/react-logo.png' width=60 />
+<img alt="es6" src='img/es6-logo.png' width=60 />
+<img alt="babel" src='img/babel-logo.svg' width=60 />
+<img alt="webpack" src='img/webpack-logo.svg' width=60 />
 
 A 'zero config' webpack tool preconfigured for React, ES6, Babel.
 
