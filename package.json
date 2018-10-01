@@ -20,6 +20,10 @@
     "url": "https://github.com/martinjackson/webpackreact/issues",
     "email": "martin.a.jackson@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinjackson/webpackreact.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.1.2",
@@ -32,11 +36,11 @@
     "@types/react-dom": "^16.0.6",
     "awesome-typescript-loader": "^5.2.0",
     "css-loader": "^1.0.0",
-    "file-loader": "^1.1.11",
+    "file-loader": "^2.0.0",
     "json-loader": "^0.5.7",
     "progress-bar-webpack-plugin": "^1.11.0",
-    "style-loader": "^0.21.0",
-    "typescript": "^2.9.2",
+    "style-loader": "^0.23.0",
+    "typescript": "^3.1.1",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.4"

@@ -2,6 +2,9 @@ const webpack = require("webpack");
 const config = require('./webpack.config.js');
 
 config.mode = process.env.NODE_ENV || 'development';
+if (process.argv[2] && process.argv[2] == '--prod')
+  config.mode = 'production'
+  
 const compiler = webpack(config);
 
 const toSkip = (line) => {
