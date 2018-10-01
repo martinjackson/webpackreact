@@ -1,0 +1,45 @@
+{
+  "name": "webpackreact",
+  "version": "0.1.0",
+  "description": "zero config webpack tool for React, ES6, Babel",
+  "main": "webpackreact.js",
+  "scripts": {
+    "setup": "yarn",
+    "start": "node webpackreact.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "typescript"
+  ],
+  "author": "Martin A. Jackson <martin.a.jackson@gmail.com> (http://martinjackson.github.io)",
+  "homepage": "https://github.com/martinjackson/webpackreact#readme",
+  "bugs": {
+    "url": "https://github.com/martinjackson/webpackreact/issues",
+    "email": "martin.a.jackson@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "json-loader": "^0.5.7",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {}
+}
