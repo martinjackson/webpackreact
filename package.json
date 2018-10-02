@@ -5,7 +5,7 @@
   "main": "webpackreact.js",
   "bin": {
     "webpackreact": "./bin/webpackreact.js"
-  }
+  },
   "scripts": {
     "setup": "yarn",
     "start": "node webpackreact.js",
