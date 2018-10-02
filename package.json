@@ -2,14 +2,14 @@
   "name": "webpackreact",
   "version": "0.1.0",
   "description": "zero config webpack tool for React, ES6, Babel",
-  "main": "webpackreact.js",
+  "main": "./bin/webpackreact.js",
   "bin": {
     "webpackreact": "./bin/webpackreact.js"
   },
   "scripts": {
-    "setup": "yarn",
-    "start": "node webpackreact.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "npm install",
+    "build": "node src/webpackreact.js --target node  --entry ./src/webpackreact.js --dest ../bin/ --name webpackreact.js",
+    "test": "node ./bin/webpackreact.js -h"
   },
   "keywords": [
     "react",
@@ -35,6 +35,9 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-minify": "^0.5.0",
     "@types/react": "^16.4.6",
     "@types/react-dom": "^16.0.6",
     "awesome-typescript-loader": "^5.2.0",
@@ -48,5 +51,7 @@
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
 }
