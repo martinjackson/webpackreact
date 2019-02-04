@@ -5,7 +5,7 @@ Please consider using [create-simple-react](https://www.npmjs.com/package/simple
 npm init simple-react
 ```
 
-This remains for research purposes only. 
+This project remains for research purposes only. 
 
 Martin Jackson <martin.a.jackson@gmail.com>
 
