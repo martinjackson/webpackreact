@@ -2,21 +2,22 @@
   "name": "webpackreact",
   "version": "0.1.0",
   "description": "zero config webpack tool for React, ES6, Babel",
-  "main": "./bin/webpackreact.js",
+  "preferGlobal": true,
   "bin": {
-    "webpackreact": "./bin/webpackreact.js"
+    "webpackreact": "bin/webpackreact"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "scripts": {
     "setup": "npm install",
-    "clean": "rimraf ./bin/*",
-    "pack": "node src/webpackreact.js --target node  --entry ./src/webpackreact.js --dest git sta./bin/ --name webpackreact.js",
-    "build": "npm run clean && npm run pack",
-    "test": "node ./bin/webpackreact.js -h"
+    "test": "bin/webpackreact -h"
   },
   "keywords": [
     "react",
     "webpack",
     "babel",
+    "ES6",
     "typescript"
   ],
   "author": "Martin A. Jackson <martin.a.jackson@gmail.com> (http://martinjackson.github.io)",
@@ -53,8 +54,5 @@
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.4"
   },
-  "devDependencies": {
-    "cross-env": "^5.2.0",
-    "rimraf": "^2.6.2"
-  }
+  "devDependencies": {}
 }
